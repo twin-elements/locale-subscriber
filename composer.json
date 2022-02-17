@@ -1,0 +1,25 @@
+{
+  "name": "twin-elements/locale-subscriber",
+  "type": "library",
+  "description": "Locale switcher",
+  "keywords": [
+    "locale switcher"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wladysław Dudko",
+      "email": "wladyslaw@jellinek.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/http-kernel": "^4.4 || ^5.4",
+    "symfony/event-dispatcher": "^4.4 || ^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwinElements\\Component\\LocaleSubscriber\\": ""
+    }
+  }
+}
